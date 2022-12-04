@@ -13,6 +13,15 @@ display: grid;
 grid-template-columns: 25% 75%;
 }
 
+:root {
+    --blue-text: #86ddff;
+    --dark-blue: #002b8f;
+    --mid-blue: #3ba0ff;
+  }   
+
+#mobile.nav {
+    display: none;
+}
 
 h1,
 h2,
